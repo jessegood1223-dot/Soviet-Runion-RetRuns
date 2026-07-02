@@ -1,0 +1,43 @@
+﻿- type: entity
+  parent: [ClothingHeadBase, BaseSovietContraband]
+  id: ClothingHeadCommissarCap
+  name: commissar's cap
+  description: The hat of a true commissar! Glory to the USSP!
+  components:
+    - type: Sprite
+      sprite: Clothing/Head/Hats/hoshat.rsi
+    - type: Clothing
+      sprite: Clothing/Head/Hats/hoshat.rsi
+    - type: Tag
+      tags:
+        - PetWearable
+        - CorgiWearable
+        - ClothMade
+        - Recyclable
+        - HamsterWearable
+        - WhitelistChameleon
+
+- type: entity
+  parent: [ClothingHeadBase, BaseFoldable]
+  id: ClothingHeadBudenovka
+  name: budenovka
+  description: I hate being sober. It's a terrible, terrible mood to be in.
+  components:
+  - type: Clothing
+    sprite: _Runion/Clothing/Head/Hats/budenovka.rsi
+  - type: Appearance
+  - type: AddAccentClothing
+    accent: RussianAccent
+  - type: Foldable
+    canFoldInsideContainer: true
+  - type: FoldableClothing
+    foldedEquippedPrefix: up
+    foldedHeldPrefix: up
+  - type: Sprite
+    sprite: _Runion/Clothing/Head/Hats/budenovka.rsi
+    layers:
+    - state: icon
+      map: [ "unfoldedLayer" ]
+    - state: icon-up
+      map: ["foldedLayer"]
+      visible: false

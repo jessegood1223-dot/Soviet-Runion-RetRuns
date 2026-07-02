@@ -1,0 +1,62 @@
+﻿#Commissar Loadout
+
+- type: loadoutGroup
+  id: CommissarJumpsuit
+  name: loadout-group-commissar-jumpsuit
+  loadouts:
+    - CamoUniformSuit
+    - ClothingUniformJumpsuitSoviet
+    - ClothingUniformJumpsuitCommissarParade
+    - ClothingUniformJumpskirtCommissarParade
+
+- type: loadoutGroup
+  id: CommissarEyewear
+  name: loadout-group-commissar-eyewear
+  loadouts:
+    - ClothingEyesGlassesSunglasses
+    - ClothingEyesGlassesCommand
+    - ClothingEyesEyepatch
+
+- type: loadoutGroup
+  id: CommissarNeck
+  name: loadout-group-commissar-neck
+  minLimit: 0
+  loadouts:
+    - ClothingNeckCloakCommissar
+
+- type: loadoutGroup
+  id: CommissarHands
+  name: loadout-group-commissar-hands
+  loadouts:
+    - ClothingHandsSalvageMercGlovesCombat
+    - ClothingHandsGlovesCombat
+
+- type: loadoutGroup
+  id: CommissarHead
+  name: loadout-group-commissar-head
+  loadouts:
+    - ClothingHeadHatBrownFlatcap
+    - ClothingHeadHatUshanka
+    - ClothingHeadCommissarCap
+
+- type: loadoutGroup
+  id: CommissarOuterclothing
+  name: loadout-group-commissar-outerclothing
+  minLimit: 0
+  loadouts:
+    - ClothingOuterClothingCommissar
+    - ClothingOuterSovietCoat
+
+- type: loadoutGroup
+  id: CommissarBackpack
+  name: loadout-group-commissar-backpack
+  minLimit: 1
+  loadouts:
+    - ClothingSatchelLeatherSovietCommissar
+
+- type: loadoutGroup
+  id: SovietLethalWeapon
+  name: loadout-group-soviet-lethal-weapon
+  loadouts:
+    - WeaponPistolMakarov
+    - WeaponPistolAPS

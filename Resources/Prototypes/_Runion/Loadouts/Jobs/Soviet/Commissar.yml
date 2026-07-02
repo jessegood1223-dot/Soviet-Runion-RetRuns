@@ -1,0 +1,107 @@
+﻿#Uniforms
+
+- type: loadout
+  id: CamoUniformSuit
+  equipment:
+    jumpsuit: CamoUniformSuit
+
+- type: loadout
+  id: ClothingUniformJumpsuitSoviet
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitSoviet
+
+- type: loadout
+  id: ClothingUniformJumpsuitCommissarParade
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitCommissarParade
+
+- type: loadout
+  id: ClothingUniformJumpskirtCommissarParade
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtCommissarParade
+
+#Eyewear
+
+- type: loadout
+  id: ClothingEyesGlassesSunglasses
+  equipment:
+    eyes: ClothingEyesGlassesSunglasses
+
+- type: loadout
+  id: ClothingEyesGlassesCommand
+  equipment:
+    eyes: ClothingEyesGlassesCommand
+
+- type: loadout
+  id: ClothingEyesEyepatch
+  equipment:
+    eyes: ClothingEyesEyepatch
+
+#Neckwear
+
+- type: loadout
+  id: ClothingNeckCloakCommissar
+  equipment:
+    neck: ClothingNeckCloakCommissar
+
+#Gloves
+
+- type: loadout
+  id: ClothingHandsSalvageMercGlovesCombat
+  equipment:
+    gloves: ClothingHandsSalvageMercGlovesCombat
+
+- type: loadout
+  id: ClothingHandsGlovesCombat
+  equipment:
+    gloves: ClothingHandsGlovesCombat
+
+#Hats
+
+- type: loadout
+  id: ClothingHeadHatBrownFlatcap
+  equipment:
+    head: ClothingHeadHatBrownFlatcap
+
+- type: loadout
+  id: ClothingHeadHatUshanka
+  equipment:
+    head: ClothingHeadHatUshanka
+
+- type: loadout
+  id: ClothingHeadCommissarCap
+  equipment:
+    head: ClothingHeadCommissarCap
+
+#Outer Clothing
+
+- type: loadout
+  id: ClothingOuterClothingCommissar
+  equipment:
+    outerClothing: ClothingNeckCloakCommissar
+
+- type: loadout
+  id: ClothingOuterSovietCoat
+  equipment:
+    outerClothing: ClothingOuterSovietCoat
+
+#Backpacks
+
+- type: loadout
+  id: ClothingSatchelLeatherSovietCommissar
+  equipment:
+    back: ClothingSatchelLeatherSovietCommissar
+
+
+#Guns
+
+- type: loadout
+  id: WeaponPistolMakarov
+  equipment:
+    belt: WeaponPistolMakarov
+
+- type: loadout
+  id: WeaponPistolAPS
+  equipment:
+    belt: WeaponPistolAPS
+

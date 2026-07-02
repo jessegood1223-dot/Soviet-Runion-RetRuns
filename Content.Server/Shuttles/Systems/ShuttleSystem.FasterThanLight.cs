@@ -931,7 +931,7 @@ public sealed partial class ShuttleSystem
         EntityUid shuttleUid,
         EntityCoordinates targetCoordinates,
         out EntityCoordinates coordinates, out Angle angle,
-        float minOffset = 0f, float maxOffset = 64f,
+        float minOffset = 0f, float maxOffset = 2f, // I sorta bullshitted this, I have no idea what I changed here
         TransformComponent? xform = null, TransformComponent? targetXform = null)
     {
         DebugTools.Assert(minOffset < maxOffset);
@@ -957,7 +957,7 @@ public sealed partial class ShuttleSystem
 
         // How much we expand the target AABB be.
         // We half it because we only need the width / height in each direction if it's placed at a particular spot.
-        var expansionAmount = MathF.Max(shuttleAABB.Width / 2f, shuttleAABB.Height / 2f);
+        var expansionAmount = MathF.Max(shuttleAABB.Width / 6f, shuttleAABB.Height / 6f);
 
         // Expand the starter AABB so we have something to query to start with.
         var targetAABB = _transform.GetWorldMatrix(targetXform)

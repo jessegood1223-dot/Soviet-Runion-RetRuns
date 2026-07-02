@@ -1,0 +1,19 @@
+﻿- type: job
+  id: Commissar
+  name: job-name-commissar
+  description: job-description-commissar
+  playTimeTracker: JobCommissar
+  startingGear: CommissarGear
+  icon: "JobIconCommissar"
+  supervisors: job-supervisors-high-command
+  displayWeight: 2
+  access:
+    - AllAccess
+
+- type: startingGear
+  id: CommissarGear
+  equipment:
+    id: CommissarIDCard
+    ears: ClothingHeadsetAltSoviet
+  storage:
+    back: # literally just comment to update folder

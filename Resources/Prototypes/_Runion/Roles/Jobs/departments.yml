@@ -1,0 +1,7 @@
+﻿- type: department
+  id: Soviet
+  name: department-Soviet
+  description: department-Soviet-description
+  color: "#AB2424"
+  roles:
+    - Commissar

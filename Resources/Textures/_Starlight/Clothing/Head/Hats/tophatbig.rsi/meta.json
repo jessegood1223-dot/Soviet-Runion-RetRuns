@@ -1,7 +1,7 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
-  "copyright": "Modified from magician's tophat by brainfood1183 (github), done by Citrea",
+  "copyright": "Modified from magician's tophat by brainfood1183 (github), done by Citrea, Equipped-HELMET-resomi modified from equipped-HELMET by Ru",
   "size": {
   "x": 32,
   "y": 32
@@ -12,6 +12,10 @@
       },
       {
           "name": "equipped-HELMET",
+          "directions": 4
+      },
+      {
+          "name": "equipped-HELMET-resomi",
           "directions": 4
       },
       {

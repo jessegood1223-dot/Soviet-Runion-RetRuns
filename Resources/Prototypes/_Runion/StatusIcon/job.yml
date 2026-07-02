@@ -1,0 +1,9 @@
+﻿#Soviet
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconCommissar
+  icon:
+    sprite: /Textures/_Runion/Interface/Misc/job_icons.rsi
+    state: Commissar
+  jobName: job-name-commissar

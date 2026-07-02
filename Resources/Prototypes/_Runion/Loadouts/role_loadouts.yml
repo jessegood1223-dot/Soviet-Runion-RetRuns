@@ -1,0 +1,18 @@
+﻿- type: roleLoadout
+  id: JobCommissar
+  groups:
+    - CommissarJumpsuit
+    - CommissarEyewear
+    - CommissarNeck
+    - CommissarHands
+    - CommissarHead
+    - CommissarOuterclothing
+    - CommissarBackpack
+    - CommissarShoes
+    - SovietLethalWeapon
+    - Survival
+    - Trinkets
+    - Scarves
+    - Pins
+    - LuxuryPens
+    - GroupSpeciesBreathTool

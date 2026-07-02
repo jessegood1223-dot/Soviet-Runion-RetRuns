@@ -1,0 +1,10 @@
+﻿- type: entity
+  parent: [ClothingUniformBase, BaseSovietContraband]
+  id: ClothingUniformJumpsuitCommissarParade
+  name: commissar's parade uniform
+  description: A male commissar's luxury-wear, for special occasions.
+  components:
+    - type: Sprite
+      sprite: Clothing/Uniforms/Jumpsuit/hos_parade.rsi
+    - type: Clothing
+      sprite: Clothing/Uniforms/Jumpsuit/hos_parade.rsi

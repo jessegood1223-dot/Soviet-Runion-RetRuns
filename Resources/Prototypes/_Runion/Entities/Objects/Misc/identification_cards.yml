@@ -1,0 +1,19 @@
+﻿- type: entity
+  parent: IDCardStandard
+  id: CommissarIDCard
+  name: commissar ID card
+  components:
+    - type: Sprite
+      sprite: _Runion/Objects/Misc/id_cards.rsi
+      layers:
+        - state: sovietid
+        - sprite: &runion-icon-rsi _Runion/Interface/Misc/job_icons.rsi
+          offset: &icon-offset -0.09375, 0.0625 #From Starlight
+          state: Commissar
+    - type: PresetIdCard
+      job: Commissar
+    - type: NanoChatCard
+      listNumber: false
+    - type: Access
+      tags:
+        - Communist

@@ -1,0 +1,28 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "Sprited by Ket_tahaunch",
+    "size": {
+        "x": 8,
+        "y": 8
+    },
+    "states": [
+        {
+            "name": "Commissar",
+            "copyright": "Sprited by Ket_tahaunch"
+        },
+        {
+            "name": "CommandingOfficer",
+            "copyright": "Sprited by Ket_tahaunch"
+        },
+        {
+            "name": "SNKVDBranchLeader",
+            "copyright": "Sprited by Ket_tahaunch"
+        },
+        {
+            "name": "SKBExecutiveOfficer",
+            "copyright": "Sprited by Ket_tahaunch"
+        }
+
+    ]
+}

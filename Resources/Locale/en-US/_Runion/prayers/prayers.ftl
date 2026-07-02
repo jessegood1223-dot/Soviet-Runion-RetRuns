@@ -1,0 +1,3 @@
+﻿prayer-chat-notify-soviet = SOVIET
+
+prayer-popup-notify-soviet-sent = You left a voicemail message for Soviet High Command...

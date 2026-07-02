@@ -1,0 +1,42 @@
+﻿- type: entity
+  parent: BaseHandheldInstrument
+  id: SovietPhoneInstrument
+  name: soviet phone
+  description: Call your comrades, da?
+  components:
+    - type: Sprite
+      sprite: Objects/Fun/Instruments/otherinstruments.rsi
+      state: red_phone
+    - type: EmitSoundOnLand
+      sound:
+        path: /Audio/Items/ring.ogg
+    - type: UserInterface
+      interfaces:
+        enum.HolopadUiKey.InteractionWindow:
+          type: HolopadBoundUserInterface
+        enum.StorageUiKey.Key:
+          type: StorageBoundUserInterface
+    - type: Telephone
+      transmissionRange: Map
+      compatibleRanges:
+        - Grid
+        - Map
+        - Unlimited
+      ringTone: /Audio/_Starlight/Machines/telephone_ring.ogg
+      listeningRange: 2
+    - type: Holopad
+    - type: ActivatableUI
+      key: enum.HolopadUiKey.InteractionWindow
+    - type: TypingIndicator
+      proto: robot
+    - type: Speech
+      speechVerb: Robotic
+      speechSounds: PhoneSpeak
+    - type: Item
+      size: Small
+      storedRotation: -90
+    - type: Prayable
+      sentMessage: prayer-popup-notify-soviet-sent
+      notificationPrefix: prayer-chat-notify-soviet
+      verb: prayer-verbs-call
+      verbImage: null
