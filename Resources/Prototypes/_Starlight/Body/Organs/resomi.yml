@@ -11,10 +11,10 @@
       Default: MobResomiEyes
   - type: FunctionalOrgan
     comps:
-    - type: NightVision
-      disabilityBlockable: true
-    - type: FlashModifier
-      modifier: 2
+    #- type: NightVision # Runion, species NV removal
+    #  disabilityBlockable: true
+    #- type: FlashModifier # Runion, NV balance
+    #  modifier: 2
 
 - type: entity # Starlight
   id: OrganResomiHeart

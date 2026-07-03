@@ -30,8 +30,8 @@
   - type: FunctionalOrgan
     comps:
     # - type: CycloriteVision
-    - type: NightVision
-      disabilityBlockable: true
+    #- type: NightVision # Runion, species NV removal
+    #  disabilityBlockable: true
   - type: OrganVisualization
     layer: Eyes
     prototypes:
