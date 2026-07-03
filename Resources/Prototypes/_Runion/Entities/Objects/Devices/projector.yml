@@ -1,0 +1,62 @@
+- type: entity
+  name: projector
+  parent: [FlashlightLantern]
+  id: ProjectorDevice
+  description: Next slide, please.
+  components:
+    - type: ItemSlots
+      slots:
+        cell_slot:
+          name: power-cell-slot-component-slot-name-default
+          startingItem: PowerCellMedium
+          blacklist:
+            tags:
+              - MechReactor
+    - type: HandheldLight
+      addPrefix: false
+      wattage: 0.5
+      turnOnSound:
+        path: /Audio/Items/flashlight_on.ogg
+        params:
+          volume: -16
+      turnOffSound:
+        path: /Audio/Items/flashlight_off.ogg
+        params:
+          volume: -16
+      turnOnFailSound:
+        path: /Audio/Items/flashlight_off.ogg
+        params:
+          volume: -16
+    - type: Sprite
+      sprite: _Runion/Objects/Devices/projector.rsi
+      layers:
+        - state: projector
+        - state: projector-overlay
+          shader: unshaded
+          visible: false
+          map: [ "light" ]
+    - type: Item
+      sprite: _Runion/Objects/Devices/projector.rsi
+    - type: PointLight
+      enabled: false
+      radius: 6
+      energy: 2
+      falloff: 4
+      color: '#FFFFCCFF'
+    - type: Rotatable
+    - type: Anchorable
+    - type: ItemToggle
+      soundActivate:
+        path: /Audio/Items/flashlight_on.ogg
+        params:
+          pitch: .75
+      soundDeactivate:
+        path: /Audio/Items/flashlight_off.ogg
+        params:
+          pitch: .75
+    - type: ItemToggleActiveSound
+      activeSound:
+        path: /Audio/_Runion/Ambience/Objects/projector.ogg
+        params:
+          volume: -2
+          loop: True
