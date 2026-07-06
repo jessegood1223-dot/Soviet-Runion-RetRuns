@@ -1,0 +1,10 @@
+- type: ghostTheme
+  id: Resomi
+  name: Resomi
+  description: a spooky resomi.
+  colorizeable: true
+  spriteSpecifier:
+    sprite:
+      sprite: _Runion/Mobs/Customization/GhostThemes/resomi.rsi
+      state: resomi
+    color: "#ffffff"
