@@ -1,0 +1,25 @@
+﻿- type: job
+  id: SSFSquadLeader
+  name: job-name-ssf-squad-leader
+  description: job-description-ssf-squad-leader
+  playTimeTracker: JobSSFSquadLeader
+  requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 5h
+  startingGear: SSFSquadLeaderGear
+  icon: "JobIconSSFSquadLeader"
+  supervisors: job-supervisors-co
+  displayWeight: 5
+  access:
+    - Security
+    - Salvage
+    - Communist
+    - Armory
+
+- type: startingGear
+  id: SSFSquadLeaderGear
+  equipment:
+    id: SSFSquadLeaderIDCard
+    ears: ClothingHeadsetAltSSF
+  storage:
+    back: # literally just comment to update folder

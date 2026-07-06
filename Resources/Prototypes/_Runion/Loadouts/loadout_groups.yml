@@ -32,6 +32,13 @@
     - ClothingHandsGlovesCombat
 
 - type: loadoutGroup
+  id: CommissarShoes
+  name: loadout-group-skb-exec-shoes
+  loadouts:
+    - ClothingShoesHighheelShoesCommissar
+    - ClothingShoesBootsJackFilledCommissar
+
+- type: loadoutGroup
   id: CommissarHead
   name: loadout-group-commissar-head
   loadouts:
@@ -60,3 +67,292 @@
   loadouts:
     - WeaponPistolMakarov
     - WeaponPistolAPS
+
+
+#SKB Executive Officer Loadout
+
+- type: loadoutGroup
+  id: SKBExecJumpsuit
+  name: loadout-group-skb-exec-jumpsuit
+  loadouts:
+    - ClothingUniformJumpsuitDetectiveSKBExec
+    - ClothingUniformJumpsuitSovietSKBExec
+    - CamoUniformSuitSKBExec
+
+- type: loadoutGroup
+  id: SKBExecEyewear
+  name: loadout-group-skb-exec-eyewear
+  loadouts:
+    - ClothingEyesGlassesSalvageMercenarySKBExec
+
+- type: loadoutGroup
+  id: SKBExecHands
+  name: loadout-group-skb-exec-hands
+  loadouts:
+    - ClothingHandsGlovesBlackNitrileSKBExec
+    - ClothingHandsGlovesNitrileSKBExec
+    - ClothingHandsGlovesLatexSKBExec
+
+- type: loadoutGroup
+  id: SKBExecShoes
+  name: loadout-group-skb-exec-shoes
+  loadouts:
+    - ClothingShoesHighheelShoesSKBExec
+    - ClothingShoesBootsJackFilledSKBExec
+
+- type: loadoutGroup
+  id: SKBExecHead
+  name: loadout-group-skb-exec-head
+  loadouts:
+    - ClothingHeadHatUshankaSKBExec
+    - ClothingHeadHatBeretRNDSKBExec
+
+- type: loadoutGroup
+  id: SKBExecOuterclothing
+  name: loadout-group-skb-exec-outerclothing
+  minLimit: 0
+  loadouts:
+    - ClothingOuterCoatLabBlackLongSKBExec
+    - ClothingOuterCoatLabLongSKBExec
+    - ClothingOuterCoatLabSeniorResearcherSKBExec
+
+- type: loadoutGroup
+  id: SKBExecBackpack
+  name: loadout-group-skb-exec-backpack
+  minLimit: 1
+  loadouts:
+    - ClothingBackpackSatchelLeatherSKBExec
+    - ClothingBackpackSatchelScienceSKBExec
+    - ClothingBackpackScienceSKBExec
+    - ClothingBackpackDuffelScienceSKBExec
+
+#SSF Squad Leader Loadout
+
+- type: loadoutGroup
+  id: SSFSquadLeaderJumpsuit
+  name: loadout-group-ssf-squad-leader-jumpsuit
+  loadouts:
+    - ClothingUniformJumpsuitSovietFatiguesSSFSquadLeader
+    - ClothingUniformJumpsuitSovietSSFSquadLeader
+    - ClothingUniformJumpsuitSalvageMercGreenSSFSquadLeader
+    - CamoUniformSuitSSFSquadLeader
+
+- type: loadoutGroup
+  id: SSFSquadLeaderEyewear
+  name: loadout-group-ssf-squad-leader-eyewear
+  loadouts:
+    - ClothingEyesGlassesSunglassesSSFSquadLeader
+    - ClothingEyesGlassesCommandSSFSquadLeader
+    - ClothingEyesEyepatchSSFSquadLeader
+    - ClothingEyesHudSovietMarineSSFSquadLeader
+
+- type: loadoutGroup
+  id: SSFSquadLeaderNeck
+  name: loadout-group-ssf-squad-leader-neck
+  minLimit: 0
+  loadouts:
+    - ClothingNeckCloakCommissarSSFSquadLeader
+
+- type: loadoutGroup
+  id: SSFSquadLeaderHands
+  name: loadout-group-ssf-squad-leader-hands
+  loadouts:
+    - ClothingHandsSalvageMercGlovesCombatSSFSquadLeader
+    - ClothingHandsGlovesCombatSSFSquadLeader
+
+- type: loadoutGroup
+  id: SSFSquadLeaderShoes
+  name: loadout-group-ssf-squad-leader-shoes
+  loadouts:
+    - ClothingShoesHighheelShoesSSFSquadLeader
+    - ClothingShoesBootsJackFilledSSFSquadLeader
+
+- type: loadoutGroup
+  id: SSFSquadLeaderHead
+  name: loadout-group-ssf-squad-leader-head
+  loadouts:
+    - ClothingHeadHatUshankaSSFSquadLeader
+    - ClothingHeadHatBeretMercSSFSquadLeader
+    - ClothingHeadBudenovkaSSFSquadLeader
+
+- type: loadoutGroup
+  id: SSFSquadLeaderOuterclothing
+  name: loadout-group-ssf-squad-leader-outerclothing
+  minLimit: 0
+  loadouts:
+    - ClothingOuterClothingCommissarSSFSquadLeader
+    - ClothingOuterSovietCoatSSFSquadLeader
+    - ClothingOuterArmorPlateSSFSquadLeader
+    - ClothingOuterArmorBasicSSFSquadLeader
+    - ClothingOuterArmorBasicSlimSSFSquadLeader
+    - ClothingOuterArmorSovietPlateSSFSquadLeader
+
+- type: loadoutGroup
+  id: SSFSquadLeaderBackpack
+  name: loadout-group-ssf-squad-leader-backpack
+  minLimit: 1
+  loadouts:
+    - ClothingBackpackSatchelLeatherSSFSquadLeader
+    - ClothingBackpackSSFSSFSquadLeader
+    - ClothingBackpackDuffelSSFSSFSquadLeader
+
+#SSF Operative Loadout
+
+- type: loadoutGroup
+  id: SSFOperativeJumpsuit
+  name: loadout-group-ssf-operative-jumpsuit
+  loadouts:
+    - ClothingUniformJumpsuitSalvageMercGreenSSFOperative
+    - ClothingUniformJumpsuitSovietSSFOperative
+    - ClothingUniformJumpsuitSovietFatiguesSSFOperative
+    - CamoUniformSuitSSFOperative
+
+- type: loadoutGroup
+  id: SSFOperativeEyewear
+  name: loadout-group-ssf-operative-eyewear
+  minLimit: 0
+  loadouts:
+    - ClothingEyesEyepatchSSFOperative
+    - ClothingEyesHudSovietMarineSSFOperative
+
+- type: loadoutGroup
+  id: SSFOperativeHands
+  name: loadout-group-ssf-operative-hands
+  loadouts:
+    - ClothingHandsSalvageMercGlovesCombatSSFOperative
+    - ClothingHandsGlovesCombatSSFOperative
+
+- type: loadoutGroup
+  id: SSFOperativeShoes
+  name: loadout-group-ssf-operative-shoes
+  loadouts:
+    - ClothingShoesHighheelShoesSSFOperative
+    - ClothingShoesBootsJackFilledSSFOperative
+
+- type: loadoutGroup
+  id: SSFOperativeHead
+  name: loadout-group-ssf-operative-head
+  loadouts:
+    - ClothingHeadHatUshankaSSFOperative
+    - ClothingHeadHatUshankaSSFOperative
+    - ClothingHeadHatBeretMercSSFOperative
+
+- type: loadoutGroup
+  id: SSFOperativeOuterclothing
+  name: loadout-group-ssf-operative-outerclothing
+  minLimit: 0
+  loadouts:
+    - ClothingOuterSovietCoatSSFOperative
+    - ClothingOuterArmorPlateSSFOperative
+    - ClothingOuterArmorBasicSSFOperative
+    - ClothingOuterArmorBasicSlimSSFOperative
+    - ClothingOuterArmorSovietPlateSSFOperative
+
+- type: loadoutGroup
+  id: SSFOperativeBackpack
+  name: loadout-group-ssf-operative-backpack
+  minLimit: 1
+  loadouts:
+    - ClothingBackpackSatchelLeatherSSFOperative
+    - ClothingBackpackSSFSSFOperative
+    - ClothingBackpackDuffelSSFSSFOperative
+
+#SSF Recruit
+
+- type: loadoutGroup
+  id: SSFRecruitJumpsuit
+  name: loadout-group-ssf-recruit-jumpsuit
+  loadouts:
+    - ClothingUniformJumpsuitSovietSSFRecruit
+    - ClothingUniformJumpsuitCossackSSFRecruit
+    - ClothingUniformJumpsuitSuitTanSSFRecruit
+
+- type: loadoutGroup
+  id: SSFRecruitHands
+  name: loadout-group-ssf-recruit-hands
+  minLimit: 0
+  loadouts:
+    - ClothingHandsMittensColorBlackSSFRecruit
+    - ClothingHandsMittensColorLightBrownSSFRecruit
+
+- type: loadoutGroup
+  id: SSFRecruitShoes
+  name: loadout-group-ssf-recruit-shoes
+  loadouts:
+    - ClothingShoesHighheelShoesSSFRecruit
+    - ClothingShoesBootsWorkSSFRecruit
+    - ClothingShoesBootsSalvageSSFRecruit
+
+- type: loadoutGroup
+  id: SSFRecruitHead
+  name: loadout-group-ssf-recruit-head
+  loadouts:
+    - ClothingHeadHatUshankaSSFRecruit
+    - ClothingHeadHatHetmanHatSSFRecruit
+    - ClothingHeadHatGreyFlatcapSSFRecruit
+    - ClothingHeadBudenovkaSSFRecruit
+
+#CO Loadout
+
+- type: loadoutGroup
+  id: COJumpsuit
+  name: loadout-group-co-jumpsuit
+  loadouts:
+    - ClothingUniformJumpsuitSovietFatiguesCO
+    - ClothingUniformJumpsuitSovietCO
+    - ClothingUniformJumpsuitSovietFatiguesCO
+    - ClothingUniformJumpsuitSovietAdmiralCO
+    - CamoUniformSuitCO
+
+- type: loadoutGroup
+  id: COEyewear
+  name: loadout-group-co-eyewear
+  loadouts:
+    - ClothingEyesGlassesSunglassesCO
+    - ClothingEyesGlassesCommandCO
+    - ClothingEyesEyepatchCO
+
+- type: loadoutGroup
+  id: CONeck
+  name: loadout-group-co-neck
+  minLimit: 0
+  loadouts:
+    - ClothingNeckCloakCommissarCO
+
+- type: loadoutGroup
+  id: COHands
+  name: loadout-group-co-hands
+  loadouts:
+    - ClothingHandsSalvageMercGlovesCombatCO
+    - ClothingHandsGlovesCombatCO
+
+- type: loadoutGroup
+  id: COShoes
+  name: loadout-group-co-shoes
+  loadouts:
+    - ClothingShoesHighheelShoesCO
+    - ClothingShoesBootsJackFilledCO
+
+- type: loadoutGroup
+  id: COHead
+  name: loadout-group-co-head
+  loadouts:
+    - ClothingHeadHatUshankaAltCO
+    - ClothingHeadHatBrownFlatcapCO
+    - ClothingHeadHatUshankaCO
+    - ClothingHeadHatSovietAdmiralHatCO
+
+- type: loadoutGroup
+  id: COOuterclothing
+  name: loadout-group-co-outerclothing
+  minLimit: 0
+  loadouts:
+    - ClothingOuterClothingCO
+    - ClothingOuterSovietCoatCO
+
+- type: loadoutGroup
+  id: COMedals
+  name: loadout-group-co-medals
+  minLimit: 0
+  loadouts:
+    - ClothingSovietMedalsRunionCO

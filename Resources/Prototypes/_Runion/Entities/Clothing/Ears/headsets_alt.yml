@@ -1,0 +1,39 @@
+﻿- type: entity
+  parent: [ClothingHeadsetAlt, BaseCommandContraband]
+  id: ClothingHeadsetAltSKBExec
+  name: skb executive's over-ear headset
+  components:
+    - type: ContainerFill
+      containers:
+        key_slots:
+          - EncryptionKeyScience
+          - EncryptionKeyCommand
+    - type: Sprite
+      sprite: _Runion/Clothing/Ears/Headsets/skb.rsi
+    - type: Clothing
+      sprite: _Runion/Clothing/Ears/Headsets/skb.rsi
+    - type: RadioChime
+      sound:
+        path: /Audio/_Starlight/Effects/Radio/rd.ogg
+    - type: StealTarget # Starlight
+      stealGroup: ClothingHeadsetAltCommand # Starlight
+
+- type: entity
+  parent: [ClothingHeadsetAlt, BaseCommandContraband]
+  id: ClothingHeadsetAltSSF
+  name: ssf squad leader's over-ear headset
+  components:
+    - type: ContainerFill
+      containers:
+        key_slots:
+          - EncryptionKeyCommand
+          - EncryptionKeyExpedition
+    - type: Sprite
+      sprite: _Runion/Clothing/Ears/Headsets/ssf.rsi
+    - type: Clothing
+      sprite: _Runion/Clothing/Ears/Headsets/ssf.rsi
+    - type: RadioChime
+      sound:
+        path: /Audio/_Starlight/Effects/Radio/hos.ogg
+    - type: StealTarget # Starlight
+      stealGroup: ClothingHeadsetAltCommand # Starlight

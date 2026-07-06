@@ -1,0 +1,11 @@
+﻿- type: entity
+  id: SpawnPointSSFRecruit
+  parent: SpawnPointJobBase
+  name: ssf recruit
+  components:
+    - type: SpawnPoint
+      job_id: SSFRecruit
+    - type: Sprite
+      layers:
+        - state: green
+        - state: jobicon

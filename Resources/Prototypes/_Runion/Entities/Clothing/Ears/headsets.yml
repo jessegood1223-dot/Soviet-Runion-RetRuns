@@ -1,0 +1,14 @@
+﻿- type: entity
+  parent: ClothingHeadset
+  id: ClothingHeadsetSSF
+  name: ssf headset
+  description: A headset used by the ssf.
+  components:
+    - type: ContainerFill
+      containers:
+        key_slots:
+          - EncryptionKeyExpedition
+    - type: Sprite
+      sprite: _Runion/Clothing/Ears/Headsets/ssf.rsi
+    - type: Clothing
+      sprite: _Runion/Clothing/Ears/Headsets/ssf.rsi

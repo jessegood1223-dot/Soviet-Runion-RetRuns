@@ -1,0 +1,10 @@
+﻿- type: entity
+  parent: [BaseSecurityCommandContraband, ClothingOuterArmorHoS]
+  id: ClothingOuterCoatSNKVDGreatCoat
+  name: snkvd's armored greatcoat
+  description: A greatcoat enhanced with a special alloy for some extra protection and style for those with a commanding presence.
+  components:
+    - type: Sprite
+      sprite: _Runion/Clothing/OuterClothing/Coats/snkvdgreatcoat.rsi
+    - type: Clothing
+      sprite: _Runion/Clothing/OuterClothing/Coats/snkvdgreatcoat.rsi

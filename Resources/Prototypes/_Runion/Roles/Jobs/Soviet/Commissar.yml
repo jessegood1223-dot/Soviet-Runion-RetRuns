@@ -3,6 +3,9 @@
   name: job-name-commissar
   description: job-description-commissar
   playTimeTracker: JobCommissar
+  requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 15h
   startingGear: CommissarGear
   icon: "JobIconCommissar"
   supervisors: job-supervisors-high-command
@@ -15,5 +18,6 @@
   equipment:
     id: CommissarIDCard
     ears: ClothingHeadsetAltSoviet
+    misc: ClothingSovietMedalsRunion
   storage:
     back: # literally just comment to update folder

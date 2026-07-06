@@ -1,0 +1,113 @@
+﻿#Uniforms
+
+- type: loadout
+  id: CamoUniformSuitCO
+  equipment:
+    jumpsuit: CamoUniformSuit
+
+- type: loadout
+  id: ClothingUniformJumpsuitSovietCO
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitSoviet
+
+- type: loadout
+  id: ClothingUniformJumpsuitSovietFatiguesCO
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitSovietFatigues
+
+- type: loadout
+  id: ClothingUniformJumpsuitSovietAdmiralCO
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitSovietAdmiral
+
+
+#Eyewear
+
+- type: loadout
+  id: ClothingEyesGlassesSunglassesCO
+  equipment:
+    eyes: ClothingEyesGlassesSunglasses
+
+- type: loadout
+  id: ClothingEyesGlassesCommandCO
+  equipment:
+    eyes: ClothingEyesGlassesCommand
+
+- type: loadout
+  id: ClothingEyesEyepatchCO
+  equipment:
+    eyes: ClothingEyesEyepatch
+
+#Neckwear
+
+- type: loadout
+  id: ClothingNeckCloakCommissarCO
+  equipment:
+    neck: ClothingNeckCloakCommissar
+
+#Gloves
+
+- type: loadout
+  id: ClothingHandsSalvageMercGlovesCombatCO
+  equipment:
+    gloves: ClothingHandsSalvageMercGlovesCombat
+
+- type: loadout
+  id: ClothingHandsGlovesCombatCO
+  equipment:
+    gloves: ClothingHandsGlovesCombat
+
+#Shoes
+
+- type: loadout
+  id: ClothingShoesHighheelShoesCO
+  equipment:
+    shoes: ClothingShoesHighheelShoes
+
+- type: loadout
+  id: ClothingShoesBootsJackFilledCO
+  equipment:
+    shoes: ClothingShoesBootsJackFilled
+
+#Hats
+
+- type: loadout
+  id: ClothingHeadHatBrownFlatcapCO
+  equipment:
+    head: ClothingHeadHatBrownFlatcap
+
+- type: loadout
+  id: ClothingHeadHatUshankaCO
+  equipment:
+    head: ClothingHeadHatUshanka
+
+- type: loadout
+  id: ClothingHeadHatSovietAdmiralHatCO
+  equipment:
+    head: ClothingHeadHatSovietAdmiralHat
+
+- type: loadout
+  id: ClothingHeadHatUshankaAltCO
+  equipment:
+    head: ClothingHeadHatUshankaAlt
+
+#Outer Clothing
+
+- type: loadout
+  id: ClothingOuterClothingCO
+  equipment:
+    outerClothing: ClothingNeckCloakCommissar
+
+- type: loadout
+  id: ClothingOuterSovietCoatCO
+  equipment:
+    outerClothing: ClothingOuterSovietCoat
+
+
+# Medals
+
+- type: loadout
+  id: ClothingSovietMedalsRunionCO
+  equipment:
+    misc: ClothingSovietMedalsRunion
+

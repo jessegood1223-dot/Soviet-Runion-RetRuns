@@ -16,3 +16,87 @@
     - Pins
     - LuxuryPens
     - GroupSpeciesBreathTool
+
+- type: roleLoadout
+  id: JobSKBExec
+  groups:
+    - SKBExecJumpsuit
+    - SKBExecEyewear
+    - SKBExecHands
+    - SKBExecHead
+    - SKBExecOuterclothing
+    - SKBExecBackpack
+    - SKBExecShoes
+    - SovietLethalWeapon
+    - Survival
+    - Trinkets
+    - Scarves
+    - Pins
+    - LuxuryPens
+    - GroupSpeciesBreathTool
+
+- type: roleLoadout
+  id: JobSSFSquadLeader
+  groups:
+    - SSFSquadLeaderJumpsuit
+    - SSFSquadLeaderEyewear
+    - SSFSquadLeaderNeck
+    - SSFSquadLeaderHands
+    - SSFSquadLeaderHead
+    - SSFSquadLeaderOuterclothing
+    - SSFSquadLeaderBackpack
+    - SSFSquadLeaderShoes
+    - SovietLethalWeapon
+    - Survival
+    - Trinkets
+    - Scarves
+    - Pins
+    - LuxuryPens
+    - GroupSpeciesBreathTool
+
+- type: roleLoadout
+  id: JobSSFOperative
+  groups:
+    - SSFOperativeJumpsuit
+    - SSFOperativeEyewear
+    - SSFOperativeHands
+    - SSFOperativeHead
+    - SSFOperativeOuterclothing
+    - SSFOperativeBackpack
+    - SSFOperativeShoes
+    - Survival
+    - Trinkets
+    - Scarves
+    - Pins
+    - GroupSpeciesBreathTool
+
+- type: roleLoadout
+  id: JobSSFRecruit
+  groups:
+    - SSFRecruitJumpsuit
+    - SSFRecruitHands
+    - SSFRecruitShoes
+    - SSFRecruitHead
+    - Survival
+    - Trinkets
+    - Scarves
+    - Pins
+    - GroupSpeciesBreathTool
+
+- type: roleLoadout
+  id: JobCommandingOfficer
+  groups:
+    - COJumpsuit
+    - COEyewear
+    - CONeck
+    - COHands
+    - COShoes
+    - COHead
+    - COOuterclothing
+    - COMedals
+    - SovietLethalWeapon
+    - Survival
+    - Trinkets
+    - Scarves
+    - Pins
+    - GroupSpeciesBreathTool

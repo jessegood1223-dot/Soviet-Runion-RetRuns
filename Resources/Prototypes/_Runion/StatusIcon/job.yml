@@ -7,3 +7,60 @@
     sprite: /Textures/_Runion/Interface/Misc/job_icons.rsi
     state: Commissar
   jobName: job-name-commissar
+
+
+#SKB
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconSKBExecutiveOfficer
+  icon:
+    sprite: /Textures/_Runion/Interface/Misc/job_icons.rsi
+    state: SKBExecutiveOfficer
+  jobName: job-name-skb-exec
+
+#SSF
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconSSFSquadLeader
+  icon:
+    sprite: /Textures/_Runion/Interface/Misc/job_icons.rsi
+    state: SSFSquadLeader
+  jobName: job-name-ssf-squad-leader
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconSSFOperative
+  icon:
+    sprite: /Textures/_Runion/Interface/Misc/job_icons.rsi
+    state: SSFOperative
+  jobName: job-name-ssf-operative
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconSSFRecruit
+  icon:
+    sprite: /Textures/_Runion/Interface/Misc/job_icons.rsi
+    state: SSFRecruit
+  jobName: job-name-ssf-recruit
+
+#Command
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconCommandingOfficer
+  icon:
+    sprite: /Textures/_Runion/Interface/Misc/job_icons.rsi
+    state: CommandingOfficer
+  jobName: job-name-co
+
+#SNKVD
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconSNKVDBranchLeader
+  icon:
+    sprite: /Textures/_Runion/Interface/Misc/job_icons.rsi
+    state: SNKVDBranchLeader
+  jobName: job-name-snkvd-branch-leader

@@ -56,6 +56,18 @@
   equipment:
     gloves: ClothingHandsGlovesCombat
 
+#Shoes
+
+- type: loadout
+  id: ClothingShoesHighheelShoesCommissar
+  equipment:
+    shoes: ClothingShoesHighheelShoes
+
+- type: loadout
+  id: ClothingShoesBootsJackFilledCommissar
+  equipment:
+    shoes: ClothingShoesBootsJackFilled
+
 #Hats
 
 - type: loadout

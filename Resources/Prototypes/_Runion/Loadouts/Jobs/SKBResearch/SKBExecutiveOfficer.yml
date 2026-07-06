@@ -1,0 +1,103 @@
+﻿#Uniforms
+
+- type: loadout
+  id: CamoUniformSuitSKBExec
+  equipment:
+    jumpsuit: CamoUniformSuit
+
+- type: loadout
+  id: ClothingUniformJumpsuitSovietSKBExec
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitSoviet
+
+- type: loadout
+  id: ClothingUniformJumpsuitDetectiveSKBExec
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitDetective
+
+#Eyewear
+
+- type: loadout
+  id: ClothingEyesGlassesSalvageMercenarySKBExec
+  equipment:
+    eyes: ClothingEyesGlassesSalvageMercenary
+
+#Gloves
+
+- type: loadout
+  id: ClothingHandsGlovesBlackNitrileSKBExec
+  equipment:
+    gloves: ClothingHandsGlovesBlackNitrile
+
+- type: loadout
+  id: ClothingHandsGlovesNitrileSKBExec
+  equipment:
+    gloves: ClothingHandsGlovesNitrile
+
+- type: loadout
+  id: ClothingHandsGlovesLatexSKBExec
+  equipment:
+    gloves: ClothingHandsGlovesLatex
+
+#Shoes
+
+- type: loadout
+  id: ClothingShoesHighheelShoesSKBExec
+  equipment:
+    shoes: ClothingShoesHighheelShoes
+
+- type: loadout
+  id: ClothingShoesBootsJackFilledSKBExec
+  equipment:
+    shoes: ClothingShoesBootsJackFilled
+
+#Hats
+
+- type: loadout
+  id: ClothingHeadHatUshankaSKBExec
+  equipment:
+    head: ClothingHeadHatUshanka
+
+- type: loadout
+  id: ClothingHeadHatBeretRNDSKBExec
+  equipment:
+    head: ClothingHeadHatBeretRND
+
+#Outer Clothing
+
+- type: loadout
+  id: ClothingOuterCoatLabBlackLongSKBExec
+  equipment:
+    outerClothing: ClothingOuterCoatLabBlackLong
+
+- type: loadout
+  id: ClothingOuterCoatLabLongSKBExec
+  equipment:
+    outerClothing: ClothingOuterCoatLabLong
+
+- type: loadout
+  id: ClothingOuterCoatLabSeniorResearcherSKBExec
+  equipment:
+    outerClothing: ClothingOuterCoatLabSeniorResearcher
+
+#Backpacks
+
+- type: loadout
+  id: ClothingBackpackSatchelLeatherSKBExec
+  equipment:
+    back: ClothingBackpackSatchelLeather
+
+- type: loadout
+  id: ClothingBackpackSatchelScienceSKBExec
+  equipment:
+    back: ClothingBackpackSatchelScience
+
+- type: loadout
+  id: ClothingBackpackScienceSKBExec
+  equipment:
+    back: ClothingBackpackScience
+
+- type: loadout
+  id: ClothingBackpackDuffelScienceSKBExec
+  equipment:
+    back: ClothingBackpackDuffelScience

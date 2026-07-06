@@ -1,0 +1,23 @@
+﻿#- type: job
+#  id: SNKVDBranchLeader
+#  name: job-name-snkvd-branch-leader
+#  description: job-description-snkvd-branch-leader
+#  playTimeTracker: JobSNKVDBranchLeader
+#  requirements:
+#    - !type:OverallPlaytimeRequirement
+#      time: 15h
+#  startingGear: SNKVDBranchLeaderGear
+#  icon: "JobIconSNKVDBranchLeader"
+#  supervisors: job-supervisors-snkvd
+#  displayWeight: 4
+#  access:
+#    - AllAccess
+#
+#- type: startingGear
+#  id: SNKVDBranchLeaderGear
+#  equipment:
+#    id: SNKVDBranchLeaderIDCard
+#    ears: ClothingHeadsetAltSoviet
+#  storage:
+#    back: # literally just comment to update folder
+#

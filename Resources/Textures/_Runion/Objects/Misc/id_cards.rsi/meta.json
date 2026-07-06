@@ -10,6 +10,22 @@
     {
       "name": "sovietid",
       "copyright": "Recolored from starlight SovietID"
+    },
+    {
+      "name": "skbexecid",
+      "copyright": "Recolored from starlight SovietID"
+    },
+    {
+      "name": "ssfsquadleadid",
+      "copyright": "Recolored from starlight SovietID"
+    },
+    {
+      "name": "ssfoperativeid",
+      "copyright": "Recolored from starlight SovietID"
+    },
+    {
+      "name": "coid",
+      "copyright": "Recolored from starlight SovietID"
     }
   ]
 }

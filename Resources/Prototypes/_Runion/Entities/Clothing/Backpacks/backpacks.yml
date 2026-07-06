@@ -1,0 +1,8 @@
+﻿- type: entity
+  parent: [ClothingBackpack, BaseSalvageContraband]
+  id: ClothingBackpackSSF
+  name: SSF backpack
+  description: Soviet Special Forces standard backpack, quite bulky.
+  components:
+    - type: Sprite
+      sprite: _Runion/Clothing/Back/Backpacks/ssf.rsi

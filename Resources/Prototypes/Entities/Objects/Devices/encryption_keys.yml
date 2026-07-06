@@ -69,12 +69,12 @@
 - type: entity
   parent: [ EncryptionKey, BaseCentcommCommandContraband ]
   id: EncryptionKeyStationMaster
-  name: station master encryption key
-  description: An encryption key used by station's bosses.
+  name: camp master encryption key #Runion Change
+  description: An encryption key used by camp's bosses. #Runion Change
   components:
   - type: EncryptionKey
     channels:
-    - Common
+    #- Common Removed Common
     - Command
     - Engineering
     - Medical
@@ -82,7 +82,8 @@
     - Security
     - Service
     - Supply
-    - Law
+    - Soviet
+    #- Law Removed Law
     defaultChannel: Command
   - type: Sprite
     layers:

@@ -1,0 +1,25 @@
+﻿- type: gameMap
+  id: RunionSovietMap
+  mapName: 'Soviet'
+  mapPath: /Maps/_Runion/Stations/sovietmap.yml
+  minPlayers: 0
+  maxPlayers: 350
+  stations:
+    RunionSovietMap:
+      stationProto: StandardNanotrasenStation
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: '{0} Soviet {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: 'ST'
+        - type: StationEmergencyShuttle
+          emergencyShuttlePath: /Maps/_Starlight/Shuttles/Avtozak.yml
+        - type: StationJobs
+          availableJobs:
+            #service
+            CommandingOfficer: [ 1, 1 ]
+            Commissar: [ 1, 1 ]
+            SSFSquadLeader: [ 1, 1 ]
+            SSFOperative: [ 1, 3 ]
+            SSFRecruit: [ 1, 4 ]

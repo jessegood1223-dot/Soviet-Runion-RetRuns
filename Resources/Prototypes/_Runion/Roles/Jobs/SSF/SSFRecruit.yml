@@ -1,0 +1,21 @@
+﻿- type: job
+  id: SSFRecruit
+  name: job-name-ssf-recruit
+  description: job-description-ssf-recruit
+  playTimeTracker: JobSSFRecruit
+  startingGear: SSFRecruitGear
+  icon: "JobIconSSFRecruit"
+  supervisors: job-supervisors-ssf
+  displayWeight: 3
+  access:
+    - Security
+    - Salvage
+    - Communist
+
+- type: startingGear
+  id: SSFRecruitGear
+  equipment:
+    id: SSFRecruitIDCard
+    back: ClothingBackpackSatchelLeather
+  storage:
+    back: # literally just comment to update folder
