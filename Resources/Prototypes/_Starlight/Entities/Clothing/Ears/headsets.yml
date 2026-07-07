@@ -105,7 +105,7 @@
   - type: ContainerFill
     containers:
       key_slots:
-      - EncryptionKeySoviet
+      - EncryptionKeyStationMaster #Runion Change
   - type: Sprite
     sprite: _Starlight/Clothing/Ears/Headsets/soviet_headset.rsi
   - type: Clothing

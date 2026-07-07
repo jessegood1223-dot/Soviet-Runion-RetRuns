@@ -1,0 +1,25 @@
+﻿- type: job
+  id: SSFOperative
+  name: job-name-ssf-operative
+  description: job-description-ssf-operative
+  playTimeTracker: JobSSFOperative
+  requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 1h
+  startingGear: SSFOperativeGear
+  icon: "JobIconSSFOperative"
+  supervisors: job-supervisors-ssf
+  displayWeight: 4
+  access:
+    - Security
+    - Salvage
+    - Communist
+    - Armory
+
+- type: startingGear
+  id: SSFOperativeGear
+  equipment:
+    id: SSFOperativeIDCard
+    ears: ClothingHeadsetSSF
+  storage:
+    back: # literally just comment to update folder

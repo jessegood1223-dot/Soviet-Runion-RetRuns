@@ -5,3 +5,29 @@
   color: "#AB2424"
   roles:
     - Commissar
+
+- type: department
+  id: SKBResearch
+  name: department-SKB-Research
+  description: department-SKB-Research-description
+  color: "#9B2755"
+  roles:
+    - SKBExec
+
+#- type: department
+#  id: SNKVD
+#  name: department-SNKVD
+#  description: department-SNKVD-description
+#  color: "#9B2755"
+#  roles:
+#    - SNKVDBranchLeader
+
+- type: department
+  id: SSF
+  name: department-SSF
+  description: department-SSF-description
+  color: "#9B2755"
+  roles:
+    - SSFSquadLeader
+    - SSFOperative
+    - SSFRecruit

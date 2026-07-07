@@ -1,0 +1,23 @@
+﻿- type: job
+  id: CommandingOfficer
+  name: job-name-co
+  description: job-description-co
+  playTimeTracker: JobCommandingOfficer
+  requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 15h
+  startingGear: CommandingOfficerGear
+  icon: "JobIconCommandingOfficer"
+  supervisors: job-supervisors-high-command
+  displayWeight: 4
+  access:
+    - AllAccess
+
+- type: startingGear
+  id: CommandingOfficerGear
+  equipment:
+    id: CommandingOfficerIDCard
+    ears: ClothingHeadsetAltSoviet
+    back: ClothingSatchelLeatherSovietCommissar
+  storage:
+    back: # literally just comment to update folder

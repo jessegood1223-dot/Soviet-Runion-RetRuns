@@ -1,0 +1,140 @@
+﻿#Uniforms
+
+- type: loadout
+  id: CamoUniformSuitSSFSquadLeader
+  equipment:
+    jumpsuit: CamoUniformSuit
+
+- type: loadout
+  id: ClothingUniformJumpsuitSovietSSFSquadLeader
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitSoviet
+
+- type: loadout
+  id: ClothingUniformJumpsuitSovietFatiguesSSFSquadLeader
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitSovietFatigues
+
+- type: loadout
+  id: ClothingUniformJumpsuitSalvageMercGreenSSFSquadLeader
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitSalvageMercGreen
+
+#Eyewear
+
+- type: loadout
+  id: ClothingEyesGlassesSunglassesSSFSquadLeader
+  equipment:
+    eyes: ClothingEyesGlassesSunglasses
+
+- type: loadout
+  id: ClothingEyesGlassesCommandSSFSquadLeader
+  equipment:
+    eyes: ClothingEyesGlassesCommand
+
+- type: loadout
+  id: ClothingEyesEyepatchSSFSquadLeader
+  equipment:
+    eyes: ClothingEyesEyepatch
+
+- type: loadout
+  id: ClothingEyesHudSovietMarineSSFSquadLeader
+  equipment:
+    eyes: ClothingEyesHudSovietMarine
+
+#Neckwear
+
+- type: loadout
+  id: ClothingNeckCloakCommissarSSFSquadLeader
+  equipment:
+    neck: ClothingNeckCloakCommissar
+
+#Gloves
+
+- type: loadout
+  id: ClothingHandsSalvageMercGlovesCombatSSFSquadLeader
+  equipment:
+    gloves: ClothingHandsSalvageMercGlovesCombat
+
+- type: loadout
+  id: ClothingHandsGlovesCombatSSFSquadLeader
+  equipment:
+    gloves: ClothingHandsGlovesCombat
+
+#Shoes
+
+- type: loadout
+  id: ClothingShoesHighheelShoesSSFSquadLeader
+  equipment:
+    shoes: ClothingShoesHighheelShoes
+
+- type: loadout
+  id: ClothingShoesBootsJackFilledSSFSquadLeader
+  equipment:
+    shoes: ClothingShoesBootsJackFilled
+
+#Hats
+
+- type: loadout
+  id: ClothingHeadBudenovkaSSFSquadLeader
+  equipment:
+    head: ClothingHeadBudenovka
+
+- type: loadout
+  id: ClothingHeadHatUshankaSSFSquadLeader
+  equipment:
+    head: ClothingHeadHatUshanka
+
+- type: loadout
+  id: ClothingHeadHatBeretMercSSFSquadLeader
+  equipment:
+    head: ClothingHeadHatBeretMerc
+
+#Outer Clothing
+
+- type: loadout
+  id: ClothingOuterClothingCommissarSSFSquadLeader
+  equipment:
+    outerClothing: ClothingNeckCloakCommissar
+
+- type: loadout
+  id: ClothingOuterSovietCoatSSFSquadLeader
+  equipment:
+    outerClothing: ClothingOuterSovietCoat
+
+- type: loadout
+  id: ClothingOuterArmorPlateSSFSquadLeader
+  equipment:
+    outerClothing: ClothingOuterArmorPlate
+
+- type: loadout
+  id: ClothingOuterArmorBasicSSFSquadLeader
+  equipment:
+    outerClothing: ClothingOuterArmorBasic
+
+- type: loadout
+  id: ClothingOuterArmorBasicSlimSSFSquadLeader
+  equipment:
+    outerClothing: ClothingOuterArmorBasicSlim
+
+- type: loadout
+  id: ClothingOuterArmorSovietPlateSSFSquadLeader
+  equipment:
+    outerClothing: ClothingOuterArmorSovietPlate
+
+#Backpacks
+
+- type: loadout
+  id: ClothingBackpackSatchelLeatherSSFSquadLeader
+  equipment:
+    back: ClothingBackpackSatchelLeather
+
+- type: loadout
+  id: ClothingBackpackSSFSSFSquadLeader
+  equipment:
+    back: ClothingBackpackSSF
+
+- type: loadout
+  id: ClothingBackpackDuffelSSFSSFSquadLeader
+  equipment:
+    back: ClothingBackpackDuffelSSF

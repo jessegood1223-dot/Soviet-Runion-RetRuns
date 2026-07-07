@@ -22,7 +22,22 @@
         {
             "name": "SKBExecutiveOfficer",
             "copyright": "Sprited by Ket_tahaunch"
+        },
+        {
+          "name": "SSFSquadLeader",
+          "copyright": "Sprited by Ket_tahaunch"
+        },
+        {
+          "name": "SSFOperative",
+          "copyright": "Sprited by Ket_tahaunch"
+        },
+        {
+          "name": "SSFRecruit",
+          "copyright": "Sprited by Ket_tahaunch"
+        },
+        {
+          "name": "SKBScientist",
+        "copyright": "Sprited by Ket_tahaunch"
         }
-
     ]
 }

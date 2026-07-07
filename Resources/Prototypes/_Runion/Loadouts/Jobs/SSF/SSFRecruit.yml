@@ -1,0 +1,68 @@
+﻿#Uniforms
+
+- type: loadout
+  id: ClothingUniformJumpsuitSovietSSFRecruit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitSoviet
+
+- type: loadout
+  id: ClothingUniformJumpsuitCossackSSFRecruit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitCossack
+
+- type: loadout
+  id: ClothingUniformJumpsuitSuitTanSSFRecruit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitSuitTan
+
+#Gloves
+
+- type: loadout
+  id: ClothingHandsMittensColorBlackSSFRecruit
+  equipment:
+    gloves: ClothingHandsMittensColorBlack
+
+- type: loadout
+  id: ClothingHandsMittensColorLightBrownSSFRecruit
+  equipment:
+    gloves: ClothingHandsMittensColorLightBrown
+
+#Shoes
+
+- type: loadout
+  id: ClothingShoesHighheelShoesSSFRecruit
+  equipment:
+    shoes: ClothingShoesHighheelShoes
+
+- type: loadout
+  id: ClothingShoesBootsWorkSSFRecruit
+  equipment:
+    shoes: ClothingShoesBootsWork
+
+- type: loadout
+  id: ClothingShoesBootsSalvageSSFRecruit
+  equipment:
+    shoes: ClothingShoesBootsSalvage
+
+#Hats
+
+- type: loadout
+  id: ClothingHeadBudenovkaSSFRecruit
+  equipment:
+    head: ClothingHeadBudenovka
+
+- type: loadout
+  id: ClothingHeadHatUshankaSSFRecruit
+  equipment:
+    head: ClothingHeadHatUshanka
+
+- type: loadout
+  id: ClothingHeadHatHetmanHatSSFRecruit
+  equipment:
+    head: ClothingHeadHatHetmanHat
+
+- type: loadout
+  id: ClothingHeadHatGreyFlatcapSSFRecruit
+  equipment:
+    head: ClothingHeadHatGreyFlatcap
+

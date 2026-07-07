@@ -19,6 +19,7 @@
           availableJobs:
             #service
             Captain: [ 1, 1 ]
+            Commissar: [ 1, 1 ]
             HeadOfPersonnel: [ 1, 1 ]
             Bartender: [ 3, 4 ]
             Botanist: [ 2, 3 ]

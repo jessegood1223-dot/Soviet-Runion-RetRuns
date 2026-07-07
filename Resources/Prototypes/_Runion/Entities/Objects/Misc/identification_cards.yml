@@ -17,3 +17,119 @@
     - type: Access
       tags:
         - Communist
+        - Command
+        - Security
+        - Science
+
+- type: entity
+  parent: IDCardStandard
+  id: SKBExecIDCard
+  name: skb executive ID card
+  components:
+    - type: Sprite
+      sprite: _Runion/Objects/Misc/id_cards.rsi
+      layers:
+        - state: skbexecid
+        - sprite: *runion-icon-rsi
+          offset: *icon-offset
+          state: SKBExecutiveOfficer
+    - type: PresetIdCard
+      job: SKBExecutiveOfficer
+    - type: NanoChatCard
+      listNumber: false
+    - type: Access
+      tags:
+        - Communist
+        - Command
+        - Security
+        - Science
+
+- type: entity
+  parent: IDCardStandard
+  id: SSFSquadLeaderIDCard
+  name: ssf squad leader ID card
+  components:
+    - type: Sprite
+      sprite: _Runion/Objects/Misc/id_cards.rsi
+      layers:
+        - state: ssfsquadleadid
+        - sprite: *runion-icon-rsi
+          offset: *icon-offset
+          state: SSFSquadLeader
+    - type: PresetIdCard
+      job: SSFSquadLeader
+    - type: NanoChatCard
+      listNumber: false
+    - type: Access
+      tags:
+        - Communist
+        - Command
+        - Security
+        - Salvage
+        - Medical
+
+- type: entity
+  parent: IDCardStandard
+  id: SSFOperativeIDCard
+  name: ssf operative ID card
+  components:
+    - type: Sprite
+      sprite: _Runion/Objects/Misc/id_cards.rsi
+      layers:
+        - state: ssfoperativeid
+        - sprite: *runion-icon-rsi
+          offset: *icon-offset
+          state: SSFOperative
+    - type: PresetIdCard
+      job: SSFOperative
+    - type: NanoChatCard
+      listNumber: false
+    - type: Access
+      tags:
+        - Communist
+        - Security
+        - Salvage
+        - Medical
+
+- type: entity
+  parent: IDCardStandard
+  id: SSFRecruitIDCard
+  name: ssf recruit ID card
+  components:
+    - type: Sprite
+      sprite: _Runion/Objects/Misc/id_cards.rsi
+      layers:
+        - state: ssfoperativeid
+        - sprite: *runion-icon-rsi
+          offset: *icon-offset
+          state: SSFRecruit
+    - type: PresetIdCard
+      job: SSFRecruit
+    - type: NanoChatCard
+      listNumber: false
+    - type: Access
+      tags:
+        - Communist
+        - Security
+        - Salvage
+        - Medical
+
+- type: entity
+  parent: IDCardStandard
+  id: CommandingOfficerIDCard
+  name: commanding officer ID card
+  components:
+    - type: Sprite
+      sprite: _Runion/Objects/Misc/id_cards.rsi
+      layers:
+        - state: coid
+        - sprite: *runion-icon-rsi
+          offset: *icon-offset
+          state: CommandingOfficer
+    - type: PresetIdCard
+      job: CommandingOfficer
+    - type: NanoChatCard
+      listNumber: false
+    - type: Access
+      tags:
+        - AllAccess

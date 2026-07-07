@@ -1,0 +1,120 @@
+﻿#Uniforms
+
+- type: loadout
+  id: CamoUniformSuitSSFOperative
+  equipment:
+    jumpsuit: CamoUniformSuit
+
+- type: loadout
+  id: ClothingUniformJumpsuitSovietSSFOperative
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitSoviet
+
+- type: loadout
+  id: ClothingUniformJumpsuitSovietFatiguesSSFOperative
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitSovietFatigues
+
+- type: loadout
+  id: ClothingUniformJumpsuitSalvageMercGreenSSFOperative
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitSalvageMercGreen
+
+#Eyewear
+
+
+- type: loadout
+  id: ClothingEyesEyepatchSSFOperative
+  equipment:
+    eyes: ClothingEyesEyepatch
+
+- type: loadout
+  id: ClothingEyesHudSovietMarineSSFOperative
+  equipment:
+    eyes: ClothingEyesHudSovietMarine
+
+
+#Gloves
+
+- type: loadout
+  id: ClothingHandsSalvageMercGlovesCombatSSFOperative
+  equipment:
+    gloves: ClothingHandsSalvageMercGlovesCombat
+
+- type: loadout
+  id: ClothingHandsGlovesCombatSSFOperative
+  equipment:
+    gloves: ClothingHandsGlovesCombat
+
+#Shoes
+
+- type: loadout
+  id: ClothingShoesHighheelShoesSSFOperative
+  equipment:
+    shoes: ClothingShoesHighheelShoes
+
+- type: loadout
+  id: ClothingShoesBootsJackFilledSSFOperative
+  equipment:
+    shoes: ClothingShoesBootsJackFilled
+
+#Hats
+
+- type: loadout
+  id: ClothingHeadBudenovkaSSFOperative
+  equipment:
+    head: ClothingHeadBudenovka
+
+- type: loadout
+  id: ClothingHeadHatUshankaSSFOperative
+  equipment:
+    head: ClothingHeadHatUshanka
+
+- type: loadout
+  id: ClothingHeadHatBeretMercSSFOperative
+  equipment:
+    head: ClothingHeadHatBeretMerc
+
+#Outer Clothing
+
+- type: loadout
+  id: ClothingOuterSovietCoatSSFOperative
+  equipment:
+    outerClothing: ClothingOuterSovietCoat
+
+- type: loadout
+  id: ClothingOuterArmorPlateSSFOperative
+  equipment:
+    outerClothing: ClothingOuterArmorPlate
+
+- type: loadout
+  id: ClothingOuterArmorBasicSSFOperative
+  equipment:
+    outerClothing: ClothingOuterArmorBasic
+
+- type: loadout
+  id: ClothingOuterArmorBasicSlimSSFOperative
+  equipment:
+    outerClothing: ClothingOuterArmorBasicSlim
+
+- type: loadout
+  id: ClothingOuterArmorSovietPlateSSFOperative
+  equipment:
+    outerClothing: ClothingOuterArmorSovietPlate
+
+#Backpacks
+
+- type: loadout
+  id: ClothingBackpackSatchelLeatherSSFOperative
+  equipment:
+    back: ClothingBackpackSatchelLeather
+
+- type: loadout
+  id: ClothingBackpackSSFSSFOperative
+  equipment:
+    back: ClothingBackpackSSF
+
+- type: loadout
+  id: ClothingBackpackDuffelSSFSSFOperative
+  equipment:
+    back: ClothingBackpackDuffelSSF

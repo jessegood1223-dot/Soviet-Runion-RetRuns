@@ -1,0 +1,19 @@
+﻿- type: job
+  id: SKBExec
+  name: job-name-skb-exec
+  description: job-description-skb-exec
+  playTimeTracker: JobSKBExec
+  startingGear: SKBExecGear
+  icon: "JobIconSKBExecutiveOfficer"
+  supervisors: job-supervisors-co
+  displayWeight: 2
+  access:
+    - AllAccess
+
+- type: startingGear
+  id: SKBExecGear
+  equipment:
+    id: SKBExecIDCard
+    ears: ClothingHeadsetAltSKBExec
+  storage:
+    back: # literally just comment to update folder
