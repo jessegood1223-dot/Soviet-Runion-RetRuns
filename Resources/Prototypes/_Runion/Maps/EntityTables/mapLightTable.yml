@@ -1,0 +1,16 @@
+# These exist entirely to hack together a component order.
+
+- type: entityTable
+  id: CampMapLightTable
+  table: !type:AllSelector
+    children:
+    - id: CampMapLightEntityReference
+      prob: 1
+
+- type: entity
+  id: CampMapLightEntityReference
+  description: The default components to be added post-init for a dynamically lit map.
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: LightCycle
+  - type: MapLight
