@@ -1,0 +1,21 @@
+﻿- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatHoodRadSoviet
+  name: radiation hood
+  description: A hood of the hazmat suit, designed for protection from high radioactivity.
+  components:
+    - type: Sprite
+      sprite: _Runion/Clothing/Head/Hoods/rad.rsi
+    - type: Clothing
+      sprite: _Runion/Clothing/Head/Hoods/rad.rsi
+    - type: Armor
+      modifiers:
+        coefficients:
+          Heat: 0.95
+          Radiation: 0.70
+    - type: HideLayerClothing
+      slots:
+        - Hair
+        - Snout
+        - HeadTop
+        - HeadSide

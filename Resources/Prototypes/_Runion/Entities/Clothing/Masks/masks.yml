@@ -1,0 +1,26 @@
+﻿- type: entity
+  parent: ClothingMaskPullableBase
+  id: ClothingMaskGasSoviet
+  name: gas mask
+  description: A face-covering mask that can be connected to an air supply.
+  components:
+    - type: Sprite
+      sprite: _Runion/Clothing/Mask/sovietmask.rsi
+    - type: Clothing
+      sprite: _Runion/Clothing/Mask/sovietmask.rsi
+    - type: BreathMask
+    - type: IngestionBlocker
+    - type: IdentityBlocker
+    - type: Armor # Starlight start
+      modifiers:
+        coefficients:
+          Caustic: 0.95
+          Radiation: 0.60 #For Runion
+    - type: Tag
+      tags:
+        - HamsterWearable
+        - WhitelistChameleon
+    - type: HideLayerClothing
+      layers:
+        Snout: Mask
+      hideOnToggle: true
