@@ -1,0 +1,35 @@
+- type: entity
+  name: phone booth
+  parent: [ BaseMachinePowered, ConstructibleMachine ]
+  id: PhoneBooth
+  description: Surprisingly, it isn't a landline.
+  components:
+    - type: Sprite
+      sprite: _Runion/Structures/Machines/phone_booth.rsi
+      layers:
+        - state: phone_booth
+      snapCardinals: true
+    - type: Machine
+      board: PhoneBoothCircuitBoard
+    - type: UserInterface
+      interfaces:
+        enum.HolopadUiKey.InteractionWindow:
+          type: HolopadBoundUserInterface
+        enum.StorageUiKey.Key:
+          type: StorageBoundUserInterface
+    - type: Telephone
+      transmissionRange: Map
+      compatibleRanges:
+        - Grid
+        - Map
+        - Unlimited
+      ringTone: /Audio/_Starlight/Machines/telephone_ring.ogg
+      listeningRange: 2
+    - type: Holopad
+    - type: ActivatableUI
+      key: enum.HolopadUiKey.InteractionWindow
+    - type: TypingIndicator
+      proto: robot
+    - type: Speech
+      speechVerb: Robotic
+      speechSounds: PhoneSpeak

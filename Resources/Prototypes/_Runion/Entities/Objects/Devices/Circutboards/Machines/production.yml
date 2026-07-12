@@ -1,0 +1,12 @@
+- type: entity
+  id: PhoneBoothCircuitBoard
+  parent: BaseMachineCircuitboard
+  name: phone booth machine board
+  description: A machine printed circuit board for a phone booth
+  components:
+    - type: MachineBoard
+      prototype: PhoneBooth
+      stackRequirements:
+        Steel: 5
+        Manipulator: 1
+        Glass: 2
